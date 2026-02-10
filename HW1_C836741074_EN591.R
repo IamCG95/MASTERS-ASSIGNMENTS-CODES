@@ -8,9 +8,9 @@ library(skimr)
 set.seed(836741074)   # Replace with your CWID
 
 # Load data
-#df <- read.csv("us_tornado_dataset_1950_2021.csv")
+df <- read.csv("us_tornado_dataset_1950_2021.csv")
 
-df <- read.csv("C:/Users/Iamco/Documents/us_tornado_dataset_1950_2021.csv")
+#df <- read.csv("C:/Users/Iamco/Documents/us_tornado_dataset_1950_2021.csv")
 
 list.files("C:/Users/Iamco/Documents/", pattern = "tornado")
 readLines("C:/Users/Iamco/Documents/us_tornado_dataset_1950_2021.csv", n = 5)
